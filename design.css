@@ -1,0 +1,128 @@
+body {
+    background-color: #FDEEF1;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+    color: #6D123F
+  }
+#header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#pop, #btsBanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#nav{
+    left: 0;
+    right: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#nav li{
+    display: inline-block;
+    background-color: #EF94CA;
+    width: 15%;
+}
+#nav li a{
+    padding: 0%;
+    width: inherit;
+    background-color: #EF94CA;
+    text-align: center;
+    text-decoration: none;
+    color: #6D123F;
+}
+#nav li.active{
+    background-color: #F1CFE1;
+}
+#nav li a:hover{
+    color:#FDEEF1 ;
+}
+#footer{
+    background-color: #6D123F;
+    color: #F1CFE1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    font-size: medium;
+}
+#listing, #listing2, #ateezC, #bangtanC, #members{
+    text-align: center;
+}
+#listing li img, #listing2 li img{
+    background-color: #EF94CA;
+    padding: 4%;
+    width: 20%;
+}
+#listing li, #listing2 li{
+    display: inline;
+}
+#TotebagsC, #digitalPrintC{
+    text-align: center;
+}
+#form{
+    position:absolute;
+    width: 20%;
+    margin-left: 20%;
+    padding: 7%;
+    padding-top: 1%;
+    padding-left: 5%;
+    background-color: #EF94CA;
+    text-align: center;
+}
+#Contact{
+    background-color: #F1CFE1;
+    text-align: center;
+}
+#Contact img{
+    width: 10%;
+}
+#form input, textarea{
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    background-color: #FDEEF1;
+    border: none;
+    width: 105%;
+    position: relative;
+}
+#submit, #reset{
+    background-color: #EF94CA;
+    width: 75%;
+}
+#infos{
+    background-color: #f9bae0;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-bottom: 30%;
+    padding: 3%;
+}
+#infos a img{
+    width: 70%;
+    text-align: center;
+}
+#infos a{
+    text-decoration: none;
+    color: #6D123F;
+}
+#seriesC{
+    text-align: center;
+}
+#seriesC img{
+    width: 60%;
+}
+#members li img{
+    width: 30%;
+}
+#members li{
+    display: inline;
+}
